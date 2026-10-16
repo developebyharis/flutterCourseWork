@@ -20,3 +20,13 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// Expanded vs Flexible
+// Both are used inside Row, Column, or Flex to control how children use the available space.
+// - Expanded: Forces a child to fill the available space.
+// - Flexible: Allows a child to use available space without forcing it to fill all of it.
+
+
+// Padding vs SizedBox
+// - Padding: Adds space around a widget's content.
+// - SizedBox: Creates a fixed-size gap between widgets.
